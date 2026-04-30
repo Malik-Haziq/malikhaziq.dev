@@ -17,12 +17,11 @@ export const ProjectCard = ({ project, index }: Props) => {
     <div className="group">
       <div
         className={cn(
-          "flex flex-col lg:flex-row gap-8 lg:gap-12 items-center",
-          !isEven && "lg:flex-row-reverse",
+          "flex flex-col  gap-8 lg:gap-12 items-center"
         )}
       >
         {/* Image Section */}
-        <div className="w-full lg:w-1/2">
+        <div className="w-full">
           <div className="relative overflow-hidden rounded-lg">
             <div className="aspect-video relative">
               <ZoomableImage
@@ -37,7 +36,7 @@ export const ProjectCard = ({ project, index }: Props) => {
         </div>
 
         {/* Content Section */}
-        <div className="w-full lg:w-1/2 space-y-5">
+        <div className="w-full space-y-5">
           <div className="space-y-3">
             <h3 className="text-2xl lg:text-3xl font-bold tracking-tight">
               {project.title}

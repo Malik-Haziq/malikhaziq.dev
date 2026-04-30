@@ -26,12 +26,12 @@ export default function Home() {
             src="/_static/me.jpg"
             width={120}
             height={120}
-            alt="Adarsha Acharya"
+            alt="Malik Haziq"
             className="rounded-2xl transition-all duration-300 hover:scale-105"
             priority
           />
           <div className="flex-1 space-y-4">
-            <h1 className="text-2xl font-bold">Adarsha Acharya</h1>
+            <h1 className="text-2xl font-bold">Malik Haziq</h1>
 
             <div className="flex items-center gap-4">
               {SOCIALS.map((social) => (
@@ -49,9 +49,7 @@ export default function Home() {
 
         <div className="space-y-4 text-muted-foreground leading-relaxed">
           <p>
-            I&apos;m a fullstack software engineer specializing in building web
-            applications powered by modern JavaScript technologies and AI-driven
-            features.
+            Malik Haziq, a frontend engineer with 3 years of experience.
           </p>
           <p>
             Over the years, I&apos;ve worked on multiple startups to build and
@@ -63,10 +61,10 @@ export default function Home() {
             If you have an exciting project or role that aligns with my
             expertise, please reach out at{" "}
             <a
-              href="mailto:hi@adarsha.dev"
+              href="mailto:malikhaziq153@gmail.com"
               className="font-medium text-foreground underline underline-offset-4 hover:text-primary transition-colors"
             >
-              hi@adarsha.dev
+              malikhaziq153@gmail.com
             </a>{" "}
             or through any of my social channels.
           </p>
